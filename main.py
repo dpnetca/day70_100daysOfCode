@@ -1,8 +1,6 @@
 import os
 from datetime import date
 from functools import wraps
-
-
 from flask import Flask, flash, redirect, render_template, url_for, abort
 from flask_bootstrap import Bootstrap
 from flask_ckeditor import CKEditor
