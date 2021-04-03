@@ -19,9 +19,7 @@ from sqlalchemy.orm import relationship
 from werkzeug.security import check_password_hash, generate_password_hash
 
 from forms import CreatePostForm, LoginForm, RegisterForm, CommentForm
-from dotenv import load_dotenv
 
-load_dotenv()
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = os.getenv("FLASK_SECRET_KEY")
