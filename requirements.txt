@@ -1,0 +1,9 @@
+flask
+Flask-WTF
+wtforms[email]
+Flask-Bootstrap
+flask_sqlalchemy
+Flask-CKEditor
+flask-login
+Flask-Gravatar
+gunicorn
