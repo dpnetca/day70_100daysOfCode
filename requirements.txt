@@ -7,3 +7,4 @@ Flask-CKEditor
 flask-login
 Flask-Gravatar
 gunicorn
+python-dotenv

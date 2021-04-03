@@ -2,4 +2,3 @@
 flake8
 black
 bandit
-python-dotenv
