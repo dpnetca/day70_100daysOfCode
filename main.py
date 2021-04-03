@@ -80,6 +80,8 @@ class Comment(db.Model):
     post = relationship("BlogPost", back_populates="comments")
 
 
+db.create_all()
+
 # Flask_login
 login_manager = LoginManager()
 login_manager.init_app(app)
@@ -234,5 +236,4 @@ def delete_post(post_id):
 
 if __name__ == "__main__":
 
-    db.create_all()
     app.run(host="0.0.0.0", port=5000, debug=True)
